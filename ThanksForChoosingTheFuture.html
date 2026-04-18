@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hayaan's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      position: relative;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      padding: 100px 0;
+      min-height: 100vh;
+    }
+
+    #home {
+      background: linear-gradient(120deg, #0d6efd, #6610f2);
+      color: white;
+    }
+
+    #about {
+      background-color: #f8f9fa;
+    }
+
+    #projects {
+      background-color: #ffffff;
+    }
+
+    #contact {
+      background-color: #212529;
+      color: white;
+    }
+
+    .navbar-nav .nav-link.active {
+      font-weight: bold;
+      color: #0d6efd !important;
+    }
+  </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Hayaan's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home -->
+<section id="home" class="d-flex align-items-center text-center">
+  <div class="container">
+    <h1 class="display-4">Hi, I'm Hayaan</h1>
+    <p class="lead">Young Coder | Arduino Circuit Builder | AvGeek</p>
+    <a href="#projects" class="btn btn-light mt-3">View My Work</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <p class="text-center">
+      My name is Hayaan, and I am a 10-year-old kid who has a strong passion for coding,
+      technology, and learning how things work. I love to code and enjoy creating programs,
+      experimenting with ideas, and solving problems using logic and creativity. I am
+      especially interested in electronics and am known as a circuit expert for my age
+      because I enjoy designing, understanding, and building circuits using different
+      components and connections. I often make circuits using Arduino, where I connect
+      sensors, LEDs, buzzers, and other components to create real working projects. I enjoy
+      writing Arduino code, testing circuits, and fixing problems until everything works
+      correctly. Along with coding and circuits, I am also a big aviation enthusiast, also
+      known as an avgeek, and I know a lot about airplanes and aviation technology. I enjoy
+      learning about different types of aircraft, how planes fly, jet engines, airlines,
+      airports, and the science behind aviation. I am always curious about how modern planes
+      are designed and how technology makes air travel safer and more efficient. I love
+      learning new things every day, whether it is through coding, building Arduino
+      circuits, experimenting with electronics, or learning about aviation, and I enjoy
+      challenging myself with new projects that help me improve my skills step by step. I
+      believe learning should be fun, hands-on, and exciting, and I am always motivated to
+      keep exploring, building, and growing my knowledge.
+    </p>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <div class="container">
+    <h2 class="text-center mb-5">Projects</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">A personal portfolio using Bootstrap and ScrollSpy.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Arduino Color Sensor</h5>
+            <p class="card-text">Color detection using TCS3200 and Arduino.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Motion Detector</h5>
+            <p class="card-text">PIR sensor project with Raspberry Pi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Traffic Light Circuit</h5>
+            <p class="card-text">Automatic traffic light system using LEDs and Arduino.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Game Hub Game</h5>
+            <p class="card-text">A hub of simple browser-based games.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Carousel Project</h5>
+            <p class="card-text">Responsive Bootstrap carousel project.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container text-center">
+    <h2 class="mb-4">Contact Me</h2>
+    <p>Phone: +91 81301 54488</p>
+    <p>Email: proplayzgamer215@gmail.com</p>
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
